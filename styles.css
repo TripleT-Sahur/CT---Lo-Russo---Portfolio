@@ -20,21 +20,78 @@ header {
     display: flex;
     justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: sticky; 
+    top: 0; 
+    padding: 15px;
+}
+
+footer {
+    background-color: rgba(1, 255, 208, 0.786);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: sticky; 
+    bottom: 0; 
+    padding: 15px;
+}
+
+body {
+    margin: 0;
+}
+
+.homefront {
+    display: flex;
+}
+
+.big-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
 }
 
 .image-homepg {
-    width: 1000px;
-    height: 600px;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .firstbio {
-    width: 250px;
-    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    /* height: 600px; */
     background: rgb(42, 127, 255);
-    font-size: 15px;
+    font-size: 10px;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: flex;
+    padding: 10px;
+}
+
+.portrait {
+    /* height: 300px; */
+    width: 100%;
+} 
+/* .lessdefinitivefirstbio  */
+
+
+
+
+
+
+.mainprojectphoto1, .mainprojectphoto2, .mainprojectphoto3, .mainprojectphoto4 {
     justify-content: space-between;
+    width: 400px;
+    border-radius: 60px;
+    height: 400px;
+}
+
+.scrollobject {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    overflow: scroll;
+    height: 500px
+
 }
