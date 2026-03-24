@@ -92,6 +92,34 @@ body {
     align-items: center;
     gap: 50px;
     overflow: scroll;
-    height: 500px
+    height: 500px;
 
+}
+
+.titlebox {
+    display: flex;
+    background-color: lightskyblue;
+    justify-content: center;
+    align-items: center;
+    width: 1350px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-proj1 {
+    display: flex;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+
+.proj1img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
