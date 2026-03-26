@@ -15,6 +15,12 @@ body {
     font-weight: bolder;
 }
 
+.link1:hover, .link2:hover, .link3:hover, .link4:hover {
+    transition: 1s;
+    padding: 10px;
+    font-weight: 700;
+}
+
 header {
     background-color: rgba(1, 255, 208, 0.786);
     display: flex;
@@ -23,6 +29,7 @@ header {
     position: sticky; 
     top: 0; 
     padding: 15px;
+    height: 30px;
 }
 
 footer {
@@ -52,6 +59,7 @@ body {
 
 .image-homepg {
     width: 100%;
+    border-bottom-right-radius: 30px;
 }
 
 .firstbio {
@@ -66,11 +74,13 @@ body {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
+    border-bottom-left-radius: 30px;
 }
 
 .portrait {
     /* height: 300px; */
     width: 100%;
+    border-radius: 10px;
 } 
 /* .lessdefinitivefirstbio  */
 
@@ -81,20 +91,29 @@ body {
 
 .mainprojectphoto1, .mainprojectphoto2, .mainprojectphoto3, .mainprojectphoto4 {
     justify-content: space-between;
-    width: 400px;
-    border-radius: 60px;
+    width: 500px;
+    border-radius: 50px;
+    height: 300px;
+    box-shadow: 10px, 10px, 10px, black;
+}
+
+.mainprojectphoto1:hover, .mainprojectphoto2:hover, .mainprojectphoto3:hover, .mainprojectphoto4:hover {
+    transition: 1s;
+    width: 600px;
     height: 400px;
 }
 
 .scrollobject {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    flex-direction: row;
     gap: 50px;
-    overflow: scroll;
+    overflow-y: scroll;
     height: 500px;
-
+    /* scroll-margin-left: auto; */
+    width: 100%;
 }
+
 
 .titlebox {
     display: flex;
@@ -105,6 +124,8 @@ body {
     height: 110px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .title-proj1 {
@@ -122,4 +143,47 @@ body {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px;
+}
+
+.proj1img:hover {
+    transition: 5s;
+    width: 1250px;
+    height: 500px;
+
+    }
+
+.proj1text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(highland-cow.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.proj1text:hover {
+    transition: 1s ease;
+    background-color: rgba(240, 248, 255, 0.444);
+    background-image: url();
+    font-size: 25px;
+
+}
+
+.title-proj1:hover {
+    transition: 0.5s;
+    color: rgb(141, 141, 225);
+}
+
+.titlebox:hover {
+    transition: 2s;
+    background-color: darkblue;
 }
