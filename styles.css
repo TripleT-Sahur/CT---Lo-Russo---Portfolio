@@ -1,5 +1,5 @@
 body {
-    background: rgb(57, 165, 248);
+    background: linear-gradient(rgb(57, 165, 248), navy);
     font-size: 12px;
 }
 
@@ -79,8 +79,9 @@ body {
 
 .portrait {
     /* height: 300px; */
-    width: 100%;
-    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 999px;
 } 
 /* .lessdefinitivefirstbio  */
 
@@ -109,10 +110,13 @@ body {
     flex-direction: row;
     gap: 50px;
     overflow-y: scroll;
+    overflow-y: hidden;
     height: 500px;
     /* scroll-margin-left: auto; */
     width: 100%;
+    /* background: linear-gradient(rgb(57, 165, 248), black); */
 }
+
 
 
 .titlebox {
@@ -131,7 +135,7 @@ body {
 .title-proj1 {
     display: flex;
     font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Iosevka Charon", monospace;
     align-items: center;
 }
 
@@ -150,8 +154,8 @@ body {
 
 .proj1img:hover {
     transition: 5s;
-    width: 1250px;
-    height: 500px;
+    width: 1125px;
+    height: 450px;
 
     }
 
@@ -161,24 +165,26 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(highland-cow.jpg);
-    background-size: cover;
+    background-image: url(space.jpeg);
+    background-size: contain;
     border-radius: 30px;
-    width: 600px;
+    width: 1100px;
     height: 400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 1px;
+   
+    background-color: rgb(7, 17, 37);
 }
 
 .proj1text:hover {
     transition: 1s ease;
-    background-color: rgba(240, 248, 255, 0.444);
-    background-image: url();
-    font-size: 25px;
+    color: azure;
+    /* background-image: url(); */
+    font-size: 15px;
 
 }
 
-.title-proj1:hover {
+/* .title-proj1:hover {
     transition: 0.5s;
     color: rgb(141, 141, 225);
 }
@@ -186,4 +192,59 @@ body {
 .titlebox:hover {
     transition: 2s;
     background-color: darkblue;
+} */
+
+.proj1imgproj1, .proj1imgproj2, .proj1imgproj3 {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
 }
+
+.proj1textproj1, .proj1textproj2, .proj1textproj3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.boxtext1, .boxtext2, .boxtext3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+/* .background-container {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: blue; 
+    animation: fadeOut linear forwards;
+    animation-timeline: scroll(); 
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1; 
+    }
+    100% {
+        opacity: 0; 
+    }
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 1; 
+    padding-top: 50vh;
+    height: 200vh; 
+    background-color: white; 
+} */
